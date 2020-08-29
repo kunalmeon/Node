@@ -1,0 +1,58 @@
+we need many packages for our project to run. This is called dependency and is of two
+types. One is regular dependency which is just code that we can use inside our project
+and another is developement tool dependency which have tools.
+
+It is very easy to install these. Just goto terminal , specify the folder and type npm init
+and hit enter button. It will install packages. The package is full information about
+the content of the project. 
+
+
+
+
+
+summarry: npm instal "dependency name" : Type this command to install regular dependency.
+        npm instal "dependency name" --save-dev for developement dependency
+
+
+        nodemon: We can use nodemon to run our program. Earlier we used to type node index.js but 
+        now we can use nodemon index.js. This command will do same thing as node index.js + we do not 
+        have to restart our server everytime the changes are done. It automatically does so. Note the installed
+        package are local and we have to make them globla in order to use them outside of the folder.
+        npm i nodemon --global.
+
+
+        tip: first install nodemon and save it as dev  npm instal "dependency name" --save-dev
+        and then make it global using same command npm install nodemon --global so that we can use it
+        for any files inside any folder. It will is like automatic
+        live server. Beautiful and makes life easier
+
+
+
+
+
+        summarry: install node package manager using npm init and then install dependency.
+        nodemon is dev dependency which act as live server.
+
+
+
+
+
+        //Updating and uninstalling package. 
+
+        The general format of package version is "^2.0.4". Fist one is major version ,second one is minor and
+        last one is patch version. The symbol indicate which kind of update. ^ symbol means update will be done
+        in patch and minor. ~ symbol means major change in the version.
+
+
+
+        1. To install any package with version is npm install slugigy@1.0.0
+        2.Updating can be done for major and for  minor with patch.
+        2(a) Major update i.e complete new version for that symbol should be ^ and then npm update package name
+        2(b) Minor and patch ~ npm update package_name.
+
+        Note patch version are bug removed version 
+
+
+        //One last thing is while sharing our code we donot need to share node_module folder.
+        This folder have many dependency which other developer dont need but we need. After 
+        deleting we can make that folder using npm instal command. 

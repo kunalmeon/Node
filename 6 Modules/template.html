@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="overview">
+      <h1>{%Name%}</h1>
+      <p>{%Address%}</p>
+      <p>{%Category%}</p>
+      <!-- AS we may want to know the detail about the individual hospitals . To differentiate individual one
+      we have id in json file and same id we can use in placeholder. if {%ID%}=0 means Mahakali Zonal Hospital 
+    and 1 means Maya Metro and so on. -->
+      <a href="/detail?id={%ID%}">Detail</a>
+      <!-- Note:The link inside href is routing link i.e url one -->
+    </div>
+  </body>
+</html>

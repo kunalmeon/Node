@@ -1,0 +1,14 @@
+[
+    {"product":"Medicine",
+    "price":"rs200"
+   },
+    
+    {
+        "product":"mask",
+       "price":"rs20"
+    },
+        {
+            "product":"jiwanJal",
+            "price":"rs10"
+        }
+]

@@ -1,0 +1,14 @@
+ [{
+  "id":"0",
+   "Name":"Mahakali Zonal Hospital ",
+  "Address":"Bhimdattanagar",
+  "Category":"Government"  ,
+  "Discription":" This is only the main hospital in Mahakali ZOne since many decades"
+ },
+ {
+   "id":"1", 
+   "Name":"Maya Metro ",
+    "Address":"Dhanagadi",
+    "Category":"Private" ,
+    "Discription":" Maya Metro located In Dhanagadi is providing it faciclity to all the  This is one of the leading hospital in private sector"  
+   }]

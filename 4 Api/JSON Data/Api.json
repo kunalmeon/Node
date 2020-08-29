@@ -1,0 +1,14 @@
+[
+    {"product":"Garlic",
+    "price":"rs20"
+   },
+    
+    {
+        "product":"onion",
+       "price":"rs20"
+    },
+        {
+            "product":"Tomato",
+            "price":"rs20"
+        }
+]
